@@ -1,0 +1,27 @@
+{
+  "name": "validador-de-campos",
+  "version": "1.0.0",
+  "description": "validador de campos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devNattan/validador-de-campos.git"
+  },
+  "keywords": [
+    "validator"
+  ],
+  "author": "devNattan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devNattan/validador-de-campos/issues"
+  },
+  "homepage": "https://github.com/devNattan/validador-de-campos#readme",
+  "dependencies": {
+    "validator": "^13.7.0",
+    "vite": "^4.0.4"
+  }
+}
