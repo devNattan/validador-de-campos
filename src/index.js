@@ -10,8 +10,7 @@ btn.addEventListener('click', (e) => {
     e.preventDefault();
 
     const fields = {
-        email: validator.isEmail(input.value),
-        phone: validator.isNumeric(input.value)
+        email: validator.isEmail(input.value)
     };
     output.innerHTML =  `The validation returned ${fields[select.value]}`
 });
